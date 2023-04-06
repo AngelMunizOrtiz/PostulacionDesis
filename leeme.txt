@@ -1,0 +1,27 @@
+Versión del servidor: 10.4.24-MariaDB - mariadb.org binary distribution
+Version Php: Version 8.1.6
+
+Para instalar el proyecto se requieren los siguientes pasos:
+
+1° Descargar el archivo desde el link de Git Hub.
+
+2° Ya descargado el proyecto, enviarlo a la carpeta Xampp/htdocs/Postulaciondesis ubicado en el disco local C,
+en caso de no tener Xampp se debe instalar.
+
+3° Ya con el proyecto en htdocs, pues abrimos xampp y activamos las acciones de Apache y Mysql.
+
+4° Ingresamos a nuestro navegador Web (Firefox,Opera,Chrome) y en el motor de busqueda ingresar la siguiente direccion
+" localhost/phpmyadmin   " ya ingresando a la pagina, tendremos que crear una Nueva Base de datos, para ello en la interfaz
+iremos nos centramos en el lado izquierda y haremos clic donde dice "Nueva" con ello te pedira colocarle un nombre a la
+BD y el que tendremos que colocarle sera " desisbd   " (sin las comillas).
+
+5° Creando la BD con el nombre indicado, nos centraremos en los iconos ubicados en la parte superior de la pagina de PhpMyAdmin
+y buscaremos la opcion de "IMPORTAR", hacemos clic y nos dara la opcion de escoger el archivo sql que querramos, con ello
+nos dirigimos a la caperta SQL del proyecto descargado, para encontrarnos con el archivo Sql que necesitaremos.
+ 
+6° Ya importado el archivo Sql, escribiremos en el motor de Busqueda del navegador la siguiente direccion:
+" localhost/Postulaciondesis/index.php " 
+
+7° Y listo,con ello la pagina web deberia funcionar perfectamente.
+
+Gracias por su atencion.
